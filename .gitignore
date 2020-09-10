@@ -3,3 +3,6 @@
 ################################################################################
 
 /WorkLink/WorkLink/bin/Debug/netcoreapp3.1
+/WorkLink/WorkLink/obj
+/WorkLink/.vs/WorkLink/v16
+/.vs

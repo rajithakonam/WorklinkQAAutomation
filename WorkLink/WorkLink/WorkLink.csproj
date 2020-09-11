@@ -7,10 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="4.1.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="85.0.4183.8700" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="WorkLinkSuites\" />
+    <Folder Include="WorkLinkScenarios\" />
+    <Folder Include="Worklink_App\AppUtilities\" />
+    <Folder Include="Worklink_Portal\PortalUtilities\" />
+    <Folder Include="Worklink_Portal\Portal_PageObjects\" />
+    <Folder Include="Worklink_Portal\Portal_Controls\" />
   </ItemGroup>
 
 </Project>
